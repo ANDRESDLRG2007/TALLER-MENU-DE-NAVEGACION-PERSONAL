@@ -1,187 +1,183 @@
 /* Estilos generales para toda la página */
 body {
-  font-family: Arial, sans-serif;
-  background-color: #e5e3e3;
-  margin: 0;
-  padding: 0;
+  font-family: Arial, sans-serif;  /* Definir la fuente de la página */
+  background-color: #e5e3e3;      /* Color de fondo de la página */
+  margin: 0;                       /* Eliminar márgenes predeterminados */
+  padding: 0;                      /* Eliminar relleno predeterminado */
 }
 
 /* Estilos para la barra de navegación */
 nav {
-  background-color: #2c3e50;
-  padding: 1px;
+  background-color: #2c3e50;       /* Color de fondo de la barra de navegación */
+  padding: 1px;                    /* Espaciado interno de la barra de navegación */
 }
 
 nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  padding: 0;
+  list-style: none;                /* Eliminar puntos de lista */
+  display: flex;                   /* Mostrar los elementos de forma horizontal */
+  justify-content: center;         /* Centrar los elementos de la lista */
+  padding: 0;                      /* Eliminar relleno */
 }
 
 nav ul li {
-  margin: 0 15px;
+  margin: 0 15px;                  /* Espacio entre los elementos de la lista */
 }
 
 nav ul li a {
-  display: block;
-  color: white;
-  text-decoration: none;
-  font-size: 18px;
-  padding: 5px 10px;
-  transition: background-color 0.3s;
+  display: block;                  /* Convertir el enlace en un bloque */
+  color: white;                    /* Color del texto del enlace */
+  text-decoration: none;           /* Eliminar subrayado del enlace */
+  font-size: 18px;                 /* Tamaño de la fuente */
+  padding: 5px 10px;               /* Espaciado alrededor del texto */
+  transition: background-color 0.3s;/* Efecto suave de transición en el color de fondo */
 }
 
 nav ul li a:hover {
-  background-color: #445e78;
-  border-radius: 5px;
+  background-color: #445e78;       /* Cambiar color de fondo al pasar el ratón */
+  border-radius: 5px;              /* Redondear las esquinas del fondo */
 }
 
 /* Estilos para las tarjetas de contenido */
 .card {
-  background-color: white;
-  padding: 20px;
-  margin: 20px auto;
-  width: 80%;
-  border-radius: 8px;
-  font-size: 16px;
+  background-color: white;         /* Color de fondo de las tarjetas */
+  padding: 20px;                   /* Espaciado interno de la tarjeta */
+  margin: 20px auto;               /* Margen para centrar las tarjetas */
+  width: 80%;                      /* Ancho de la tarjeta */
+  border-radius: 8px;              /* Esquinas redondeadas */
+  font-size: 16px;                 /* Tamaño de fuente dentro de la tarjeta */
 }
 
 .card img {
-  display: block;
-  margin: 10px auto;
-  max-width: 250px;
-  height: auto;
-  border-radius: 10px;
-  transition: all 300ms;
-  position: relative;
+  display: block;                  /* Hacer que la imagen sea un bloque */
+  margin: 10px auto;               /* Centrar la imagen y agregar márgenes */
+  max-width: 250px;                /* Ancho máximo de la imagen */
+  height: auto;                    /* Mantener la proporción de la imagen */
+  border-radius: 10px;             /* Redondear las esquinas de la imagen */
+  transition: all 300ms;           /* Efecto suave de transición para todos los cambios */
+  position: relative;              /* Posición relativa para posibles ajustes */
 }
 
 .card img:hover {
-  transform: scale(1.1);
+  transform: scale(1.1);           /* Aumentar el tamaño de la imagen cuando se pasa el ratón */
 }
 
 /* Estilos para la tabla */
 .table-container {
-  overflow-x: auto;
-  margin: 20px auto;
-  width: 90%;
+  overflow-x: auto;                /* Permitir desplazamiento horizontal si la tabla es muy ancha */
+  margin: 20px auto;               /* Centrar la tabla */
+  width: 90%;                      /* Ancho de la tabla */
 }
 
 table {
-  width: 100%;
-  border-collapse: collapse;
-  background-color: white;
-  min-width: 400px;
+  width: 100%;                     /* Hacer la tabla de ancho completo */
+  border-collapse: collapse;       /* Eliminar espacios entre celdas */
+  background-color: white;         /* Color de fondo de la tabla */
+  min-width: 400px;                /* Ancho mínimo de la tabla */
 }
 
 table img {
-  border-radius: 10px;
-  transition: all 300ms;
-  max-width: 250px;
-  height: auto;
+  border-radius: 10px;             /* Redondear las esquinas de las imágenes dentro de la tabla */
+  transition: all 300ms;           /* Efecto suave de transición */
+  max-width: 250px;                /* Ancho máximo de las imágenes */
+  height: auto;                    /* Mantener la proporción de las imágenes */
 }
 
 table img:hover {
-  transform: scale(1.1);
+  transform: scale(1.1);           /* Aumentar el tamaño de la imagen dentro de la tabla */
 }
 
 table, th, td {
-  border: 1px solid #000;
-  padding: 10px;
-  text-align: left;
+  border: 1px solid #000;          /* Bordes de la tabla */
+  padding: 10px;                   /* Espaciado interno en las celdas */
+  text-align: left;                /* Alinear el texto a la izquierda */
 }
 
 th {
-  text-align: center;
-  background-color: #2c3e50;
-  color: white;
+  text-align: center;              /* Centrar el texto en las celdas de los encabezados */
+  background-color: #2c3e50;       /* Color de fondo de las celdas de encabezado */
+  color: white;                    /* Color de texto blanco en el encabezado */
 }
 
 table a {
-  color: #2c3e50;
-  text-decoration: none;
+  color: #2c3e50;                  /* Color del enlace dentro de la tabla */
+  text-decoration: none;           /* Eliminar subrayado del enlace */
 }
 
 table a:hover {
-  text-decoration: underline;
+  text-decoration: underline;      /* Subrayar el enlace cuando se pasa el ratón */
 }
 
 /* Estilos para el pie de página */
 footer {
-  font-family: Arial, sans-serif;
-  background-color: #2c3e50;
-  color: aliceblue;
-  text-align: center;
-  padding: 1px 0;
-  width: 100%;
+  font-family: Arial, sans-serif;  /* Definir la fuente del pie de página */
+  background-color: #2c3e50;       /* Color de fondo del pie de página */
+  color: aliceblue;                 /* Color de texto blanco en el pie de página */
+  text-align: center;               /* Centrar el texto en el pie de página */
+  padding: 1px 0;                   /* Espaciado del pie de página */
+  width: 100%;                      /* Ancho completo */
 }
 
 /* 🔹 Ajustes generales para pantallas pequeñas */
 @media (max-width: 768px) {
   body {
-    padding: 10px 0;
+    padding: 10px 0;                /* Relleno reducido para pantallas pequeñas */
   }
   nav ul {
-    flex-direction: column;
-    align-items: center;
-    padding: 10px 0;
+    flex-direction: column;         /* Cambiar la disposición de la barra de navegación a columna */
+    align-items: center;            /* Centrar los elementos de la barra de navegación */
+    padding: 10px 0;                /* Relleno en la barra de navegación */
   }
   nav li {
-    margin: 10px 0;
+    margin: 10px 0;                 /* Espacio entre los elementos en la navegación */
   }
   table {
-    font-size: 14px;
+    font-size: 14px;                /* Reducir tamaño de fuente en la tabla */
   }
   img {
-    width: 80%;
-    max-width: 300px;
+    width: 80%;                     /* Reducir el tamaño de las imágenes */
+    max-width: 300px;               /* Tamaño máximo de las imágenes */
   }
   h1 {
-    font-size: 22px;
+    font-size: 22px;                /* Reducir tamaño de la fuente en los encabezados */
   }
   p {
-    font-size: 16px;
+    font-size: 16px;                /* Reducir tamaño de fuente en los párrafos */
   }
-  .card{
-    width: 100%;
+  .card {
+    width: 100%;                    /* Hacer las tarjetas de ancho completo */
   }
-  nav{
-    width: 100%;
+  nav {
+    width: 100%;                    /* Hacer la barra de navegación de ancho completo */
   }
-  table{
-    width: 100%;
+  table {
+    width: 100%;                    /* Hacer la tabla de ancho completo */
   }
 }
 
 @media (max-width: 480px) {
   nav {
-    padding: 5px 0;
+    padding: 5px 0;                 /* Reducir el relleno en la barra de navegación */
   }
   nav a {
-    font-size: 16px;
-    padding: 8px 12px;
+    font-size: 16px;                /* Reducir el tamaño de fuente de los enlaces */
+    padding: 8px 12px;              /* Reducir el relleno de los enlaces */
   }
   h1 {
-    font-size: 20px;
+    font-size: 20px;                /* Reducir el tamaño de los encabezados */
   }
   p {
-    font-size: 14px;
+    font-size: 14px;                /* Reducir el tamaño de los párrafos */
   }
   img {
-    width: 90%;
+    width: 90%;                     /* Aumentar el tamaño de las imágenes en pantallas pequeñas */
   }
-  .card{
-    width: 100%;
+  .card {
+    width: 100%;                    /* Hacer las tarjetas de ancho completo */
   }
-  nav{
-    width: 100%;
+  nav {
+    width: 100%;                    /* Hacer la barra de navegación de ancho completo */
   }
-  table{
-    width: 100%;
+  table {
+    width: 100%;                    /* Hacer la tabla de ancho completo */
   }
-
-  }
-  
-
-
+}
