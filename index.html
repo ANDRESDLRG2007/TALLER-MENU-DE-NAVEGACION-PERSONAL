@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Define la codificación de caracteres -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Configura la vista para dispositivos móviles -->
+    <title>Guía de CSS y JavaScript</title>
+    <!-- Título de la página -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Enlace a la hoja de estilos CSS -->
+  </head>
+  <body>
+    <nav>
+      <!-- Inicio del menú de navegación -->
+      <ul>
+        <li><a href="#css">CSS</a></li>
+        <!-- Enlace a la sección CSS -->
+        <li><a href="#javascript">JavaScript</a></li>
+        <!-- Enlace a la sección JavaScript -->
+        <li><a href="#atributos">Tabla de Atributos</a></li>
+        <!-- Enlace a la sección de la tabla de atributos -->
+      </ul>
+    </nav>
+
+    <section id="css" class="card">
+      <!-- Sección CSS con clase "card" -->
+      <h2>CSS: Diseño y Estilos</h2>
+      <!-- Título de la sección CSS -->
+      <p>
+        CSS (Cascading Style Sheets) es un lenguaje que controla el diseño y la
+        apariencia de las páginas web, permitiendo separar la estructura del
+        contenido en HTML de su presentación visual. Su importancia radica en
+        mejorar la experiencia del usuario mediante diseños atractivos y
+        organizados, facilitar la personalización y el mantenimiento sin
+        modificar el código HTML, optimizar la carga del sitio al reutilizar
+        estilos y hacer que las páginas sean responsivas, adaptándose a
+        diferentes tamaños de pantalla y dispositivos. Además, permite la
+        creación de animaciones y efectos visuales que enriquecen la interacción
+        con el usuario.
+      </p>
+      <!-- Descripción de CSS -->
+      <a href="https://developer.mozilla.org/es/docs/Web/CSS">
+        <!-- Enlace a la documentación de CSS -->
+        <img
+          src="imagenes/aprender-css-hojas-de-estilo-en-cascada.jpg"
+          alt="CSS Logo"
+        />
+        <!-- Imagen con atributo alt -->
+      </a>
+    </section>
+
+    <section id="javascript" class="card">
+      <!-- Sección JavaScript con clase "card" -->
+      <h2>JavaScript: Interactividad en la Web</h2>
+      <!-- Título de la sección JavaScript -->
+      <p>
+        JavaScript es un lenguaje de programación esencial para el desarrollo
+        web, ya que permite crear páginas interactivas y dinámicas. Su
+        importancia radica en que mejora la experiencia del usuario al agregar
+        funcionalidades como animaciones, validaciones de formularios y
+        actualizaciones en tiempo real sin recargar la página. Además, es
+        compatible con todos los navegadores y se integra fácilmente con HTML y
+        CSS, lo que lo convierte en una herramienta fundamental para el
+        desarrollo de aplicaciones web modernas y sitios responsivos.
+      </p>
+      <!-- Descripción de JavaScript -->
+      <a href="https://developer.mozilla.org/es/docs/Web/JavaScript">
+        <!-- Enlace a la documentación de JavaScript -->
+        <img
+          src="imagenes/que-es-javascript-descubre-sus-5-principales-usos.jpg"
+          alt="JavaScript Logo"
+        />
+        <!-- Imagen con atributo alt -->
+      </a>
+    </section>
+
+    <section id="atributos">
+      <!-- Sección de la tabla de atributos CSS -->
+      <center><h2>Atributos de CSS</h2></center>
+      <!-- Título centrado de la sección -->
+      <p>
+        Esta tabla contiene información sobre distintos atributos CSS y su
+        función.
+      </p>
+      <!-- Descripción de la tabla -->
+      <table>
+        <!-- Inicio de la tabla -->
+        <tr>
+          <th>Nombre del Atributo</th>
+          <!-- Encabezado de columna: Nombre del Atributo -->
+          <th>Descripción</th>
+          <!-- Encabezado de columna: Descripción -->
+          <th>Valores Posibles</th>
+          <!-- Encabezado de columna: Valores Posibles -->
+          <th>Ejemplo de Uso</th>
+          <!-- Encabezado de columna: Ejemplo de Uso -->
+          <th>Imagen</th>
+          <!-- Encabezado de columna: Imagen -->
+          <th>Fuente</th>
+          <!-- Encabezado de columna: Fuente -->
+        </tr>
+        <tr>
+          <td>color</td>
+          <!-- Nombre del atributo: color -->
+          <td>Define el color del texto.</td>
+          <!-- Descripción del atributo: color -->
+          <td>Nombre, Hex, RGB</td>
+          <!-- Valores posibles del atributo: color -->
+          <td><code>p { color: blue; }</code></td>
+          <!-- Ejemplo de uso del atributo: color -->
+          <td><img src="imagenes/color.png" alt="color" /></td>
+          <!-- Imagen representativa del atributo: color -->
+          <td>
+            <center>
+              <a href="https://developer.mozilla.org/es/docs/Web/CSS/color">FUENTE DE REFERENCIA</a>
+            </center>
+          </td>
+          <!-- Fuente de información del atributo: color -->
+        </tr>
+        <tr>
+          <td>background-color</td>
+          <!-- Nombre del atributo: background-color -->
+          <td>Define el color de fondo de un elemento.</td>
+          <!-- Descripción del atributo: background-color -->
+          <td>Nombre, Hex, RGB</td>
+          <!-- Valores posibles del atributo: background-color -->
+          <td><code>body { background-color: #f4f4f4; }</code></td>
+          <!-- Ejemplo de uso del atributo: background-color -->
+          <td>
+            <img src="imagenes/background.jpg" alt="background-color" />
+          </td>
+          <!-- Imagen representativa del atributo: background-color -->
+          <td>
+            <center>
+              <a href="https://developer.mozilla.org/es/docs/Web/CSS/background-color">FUENTE DE REFERENCIA</a>
+            </center>
+          </td>
+          <!-- Fuente de información del atributo: background-color -->
+        </tr>
+        <tr>
+          <td>font-size</td>
+          <!-- Nombre del atributo: font-size -->
+          <td>Define el tamaño de la fuente.</td>
+          <!-- Descripción del atributo: font-size -->
+          <td>px, em, rem, %</td>
+          <!-- Valores posibles del atributo: font-size -->
+          <td><code>h1 { font-size: 2em; }</code></td>
+          <!-- Ejemplo de uso del atributo: font-size -->
+          <td><img src="imagenes/fontsize1.png" alt="font-size" /></td>
+          <!-- Imagen representativa del atributo: font-size -->
+          <td>
+            <center>
+              <a href="https://developer.mozilla.org/es/docs/Web/CSS/font-size">FUENTE DE REFERENCIA</a>
+            </center>
+          </td>
+          <!-- Fuente de información del atributo: font-size -->
+        </tr>
+        <tr>
+          <td>border-radius</td>
+          <!-- Nombre del atributo: border-radius -->
+          <td>Define el radio de las esquinas del borde.</td>
+          <!-- Descripción del atributo: border-radius -->
+          <td>px, %</td>
+          <!-- Valores posibles del atributo: border-radius -->
+          <td><code>div { border-radius: 10px; }</code></td>
+          <!-- Ejemplo de uso del atributo: border-radius -->
+          <td><img src="imagenes/border radius.jpg" alt="border-radius" /></td>
+          <!-- Imagen representativa del atributo: border-radius -->
+          <td>
+            <center>
+              <a href="https://developer.mozilla.org/es/docs/Web/CSS/border-radius">FUENTE DE REFERENCIA</a>
+            </center>
+          </td>
+          <!-- Fuente de información del atributo: border-radius -->
+        </tr>
+        <tr>
+          <td>display</td>
+          <!-- Nombre del atributo: display -->
+          <td>Define cómo se muestra un elemento.</td>
+          <!-- Descripción del atributo: display -->
+          <td>block, inline, flex, grid</td>
+          <!-- Valores posibles del atributo: display -->
+          <td><code>span { display: inline; }</code></td>
+          <!-- Ejemplo de uso del atributo: display -->
+          <td><img src="imagenes/display.jpg" alt="display" /></td>
+          <!-- Imagen representativa del atributo: display -->
+          <td>
+            <center>
+              <a href="https://developer.mozilla.org/es/docs/Web/CSS/display">FUENTE DE REFERENCIA</a>
+            </center>
+          </td>
+          <!-- Fuente de información del atributo: display -->
+        </tr>
+        <tr>
+          <td>flexbox (display: flex)</td>
+          <!-- Nombre del atributo: flexbox -->
+          <td>Define un contenedor flexible.</td>
+          <!-- Descripción del atributo: flexbox -->
+          <td>flex, inline-flex</td>
+          <!-- Valores posibles del atributo: flexbox -->
+          <td><code>div { display: flex; }</code></td>
+          <!-- Ejemplo de uso del atributo: flexbox -->
+          <td><img src="imagenes/flexbox.jpg" alt="flexbox" /></td>
+          <!-- Imagen representativa del atributo: flexbox -->
+          <td>
+            <center>
+              <a href="https://developer.mozilla.org/es/docs/Web/CSS/flex">FUENTE DE REFERENCIA</a>
+            </center>
+          </td>
+          <!-- Fuente de información del atributo: flexbox -->
+        </tr>
+        <tr>
+          <td>position</td>
+          <!-- Nombre del atributo: position -->
+          <td>Define la posición de un elemento.</td>
+          <!-- Descripción del atributo: position -->
+          <td>static, relative, absolute, fixed, sticky</td>
+          <!-- Valores posibles del atributo: position -->
+          <td><code>div { position: absolute; }</code></td>
+          <!-- Ejemplo de uso del atributo: position -->
+          <td><img src="imagenes/position.jpg" alt="position" /></td>
+          <!-- Imagen representativa del atributo: position -->
+          <td>
+            <center>
+              <a href="https://developer.mozilla.org/es/docs/Web/CSS/position">FUENTE DE REFERENCIA</a>
+            </center>
+          </td>
+          <!-- Fuente de información del atributo: position -->
+        </tr>
+        <tr>
+          <td>box-shadow</td>
+          <!-- Nombre del atributo: box-shadow -->
+          <td>Aplica una sombra a un elemento.</td>
+          <!-- Descripción del atributo: box-shadow -->
+          <td>none, h-offset v-offset blur spread color</td>
+          <!-- Valores posibles del atributo: box-shadow -->
+          <td><code>div { box-shadow: 2px 2px 5px grey; }</code></td>
+          <!-- Ejemplo de uso del atributo: box-shadow -->
+          <td><img src="imagenes/box-shadow.jpg" alt="box-shadow" /></td>
+          <!-- Imagen representativa del atributo: box-shadow -->
+          <td>
+            <center>
+              <a href="https://developer.mozilla.org/es/docs/Web/CSS/box-shadow">FUENTE DE REFERENCIA</a>
+            </center>
+          </td>
+          <!-- Fuente de información del atributo: box-shadow -->
+        </tr>
+        <tr>
+          <td>overflow</td>
+          <!-- Nombre del atributo: overflow -->
+          <td>Controla el contenido desbordado.</td>
+          <!-- Descripción del atributo: overflow -->
+          <td>visible, hidden, scroll, auto</td>
+          <!-- Valores posibles del atributo: overflow -->
+          <td><code>div { overflow: hidden; }</code></td>
+          <!-- Ejemplo de uso del atributo: overflow -->
+          <td><img src="imagenes/overflow.png" alt="overflow" /></td>
+          <!-- Imagen representativa del atributo: overflow -->
+          <td>
+            <center>
+              <a href="https://developer.mozilla.org/es/docs/Web/CSS/overflow">FUENTE DE REFERENCIA</a>
+            </center>
+          </td>
+          <!-- Fuente de información del atributo: overflow -->
+        </tr>
+        <tr>
+          <td>z-index</td>
+          <!-- Nombre del atributo: z-index -->
+          <td>Define el orden de apilamiento de un elemento.</td>
+          <!-- Descripción del atributo: z-index -->
+          <td>número</td>
+          <!-- Valores posibles del atributo: z-index -->
+          <td><code>div { z-index: 10; }</code></td>
+          <!-- Ejemplo de uso del atributo: z-index -->
+          <td><img src="imagenes/index.png" alt="z-index" /></td>
+          <!-- Imagen representativa del atributo: z-index -->
+          <td>
+            <center>
+              <a href="https://developer.mozilla.org/es/docs/Web/CSS/z-index">FUENTE DE REFERENCIA</a>
+            </center>
+          </td>
+          <!-- Fuente de información del atributo: z-index -->
+        </tr>
+        <tr>
+          <td>opacity</td>
+          <!-- Nombre del atributo: opacity -->
+          <td>Define la opacidad de un elemento.</td>
+          <!-- Descripción del atributo: opacity -->
+          <td>0.0 - 1.0</td>
+          <!-- Valores posibles del atributo: opacity -->
+          <td><code>div { opacity: 0.5; }</code></td>
+          <!-- Ejemplo de uso del atributo: opacity -->
+          <td><img src="imagenes/opacity.jpg" alt="opacity" /></td>
+          <!-- Imagen representativa del atributo: opacity -->
+          <td>
+            <center>
+              <a href="https://developer.mozilla.org/es/docs/Web/CSS/opacity">FUENTE DE REFERENCIA</a>
+            </center>
+          </td>
+          <!-- Fuente de información del atributo: opacity -->
+        </tr>
+        <tr>
+          <td>margin</td>
+          <!-- Nombre del atributo: margin -->
+          <td>Define el margen exterior de un elemento.</td>
+          <!-- Descripción del atributo: margin -->
+          <td>px, em, %</td>
+          <!-- Valores posibles del atributo: margin -->
+          <td><code>div { margin: 20px; }</code></td>
+          <!-- Ejemplo de uso del atributo: margin -->
+          <td><img src="imagenes/margin.png" alt="margin" /></td>
+          <!-- Imagen representativa del atributo: margin -->
+          <td>
+            <center>
+              <a href="https://developer.mozilla.org/es/docs/Web/CSS/margin">FUENTE DE REFERENCIA</a>
+            </center>
+          </td>
+          <!-- Fuente de información del atributo: margin -->
+        </tr>
+        <tr>
+          <td>padding</td>
+          <!-- Nombre del atributo: padding -->
+          <td>Define el relleno interior de un elemento.</td>
+          <!-- Descripción del atributo: padding -->
+          <td>px, em, %</td>
+          <!-- Valores posibles del atributo: padding -->
+          <td><code>div { padding: 20px; }</code></td>
+          <!-- Ejemplo de uso del atributo: padding -->
+          <td><img src="imagenes/padding.png" alt="padding" /></td>
+          <!-- Imagen representativa del atributo: padding -->
+          <td>
+            <center>
+              <a href="https://developer.mozilla.org/es/docs/Web/CSS/padding">FUENTE DE REFERENCIA</a>
+            </center>
+          </td>
+          <!-- Fuente de información del atributo: padding -->
+        </tr>
+        <tr>
+          <td>text-align</td>
+          <!-- Nombre del atributo: text-align -->
+          <td>Define la alineación del texto dentro de un elemento.</td>
+          <!-- Descripción del atributo: text-align -->
+          <td>left, right, center, justify</td>
+          <!-- Valores posibles del atributo: text-align -->
+          <td><code>p { text-align: center; }</code></td>
+          <!-- Ejemplo de uso del atributo: text-align -->
+          <td><img src="imagenes/text-align.gif" alt="text-align" /></td>
+          <!-- Imagen representativa del atributo: text-align -->
+          <td>
+            <center>
+              <a href="https://developer.mozilla.org/es/docs/Web/CSS/text-align">FUENTE DE REFERENCIA</a>
+            </center>
+          </td>
+          <!-- Fuente de información del atributo: text-align -->
+        </tr>
+      </table>
+      <!-- Fin de la tabla -->
+    </section>
+  </body>
+  <footer>
+    <p>
+      <center>
+        Cristian Andrés de la Rue García / cristian.rueg@uniagustiniana.edu.co
+        <!-- Información de contacto -->
+      </center>
+    </p>
+  </footer>
+</html>
