@@ -18,5 +18,5 @@ Para visualizar el proyecto correctamente, solo necesitas un navegador web moder
 2. Abre el archivo `index.html` en tu navegador.
 
 ## Autor
-Creado por [Tu Nombre].
+Creado por Andres DLRG.
 
