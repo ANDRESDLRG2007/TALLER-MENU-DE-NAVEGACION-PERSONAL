@@ -74,6 +74,7 @@ table {
   border-collapse: collapse; /* Elimina espacios entre bordes */
   background-color: white; /* Fondo blanco para la tabla */
   min-width: 400px; /* Ancho mínimo para evitar deformaciones */
+  overflow: auto;
 }
 
 table img {
