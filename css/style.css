@@ -45,6 +45,7 @@ nav ul li a:hover {
   width: 80%; /* Ancho del 80% del contenedor padre */
   border-radius: 8px; /* Bordes redondeados */
   font-size: 16px; /* Tamaño del texto */
+  overflow: auto;
 }
 
 .card img {
@@ -115,6 +116,7 @@ footer {
   text-align: center; /* Centra el contenido */
   padding: 1px 0; /* Espaciado interno */
   width: 100%; /* Ocupa todo el ancho */
+  overflow: auto;
 }
 
 /* 🔹 Ajustes generales para pantallas pequeñas */
@@ -163,3 +165,4 @@ footer {
     width: 90%; /* Ajusta las imágenes para dispositivos más pequeños */
   }
 }
+
